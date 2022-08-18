@@ -41,7 +41,7 @@ export default function Home() {
 					</div>
 
 					<div className='flex flex-col justify-center  my-6'>
-						<input type="submit" value="Submit" className='bg-gradient-to-b from-red-500  to-red-400   py-2  rounded-lg text-gray-50 font-bold' />
+						<input type="submit" value="Submit" className=' bg-red-500   py-2  rounded-lg text-gray-50 font-bold' />
 					</div>
 
 				</form>
