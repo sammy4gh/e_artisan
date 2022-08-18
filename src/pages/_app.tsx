@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Provider store={store}>
 
         <section className="bg-gray-50">
-          {/* <Header /> */}
+          <Header />
 
           <section
             className={
