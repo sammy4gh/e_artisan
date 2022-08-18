@@ -19,14 +19,14 @@ export default function Home() {
 					<div className='login_input my-2 rouunded-lg bg-white drop-shadow-sm px-2 py-1 shadow-inner'>
 						<label htmlFor="email" className='text-gray-500 text-sm my-2 font-semibold'>Email</label>
 						<div>
-							<input type="email" name="email " id="email" className=' w-full border-none rounded-lg focus:border focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500' />
+							<input type="email" name="email " id="email" className=' w-full border-none rounded-lg focus:border focus:outline-none focus:border-red-500 focus:ring-2 focus:ring-red-500' />
 						</div>
 					</div>
 
 					<div className='login_input my-2 rouunded-lg bg-white drop-shadow-sm px-2 py-1 shadow-inner'>
 						<label htmlFor="password" className='text-gray-500 text-sm font-semibold '>Password</label>
 						<div>
-							<input type="password" name="password" id="password" className='bg-red w-full rounded-lg font-bold border-none focus:border focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500' />
+							<input type="password" name="password" id="password" className='bg-red w-full rounded-lg font-bold border-none focus:border focus:outline-none focus:border-red-500 focus:ring-2 focus:ring-red-500' />
 						</div>
 					</div>
 					<div className='flex justify-between'>
