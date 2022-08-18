@@ -12,7 +12,7 @@ export default function Home() {
 
 			<div className=''>
 				<h3 className='text-xl my-2'>Hello!, lets continue</h3>
-				<h1 className='font-bold text-6xl'>Login</h1>
+				<h1 className='font-bold text-6xl text-gray-800'>Login</h1>
 			</div>
 			<div className='login_form'>
 				<form action="">
