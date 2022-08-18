@@ -49,8 +49,8 @@ export default function Home() {
 			</div>
 			<div id="federated_log" className='flex justify-between'>
 
-				<button className='bg-gradient-to-b from-gray-200 to-gray-100 py-2 px-12  rounded-lg text-gray-gray-800 font-bold'>Google</button>
-				<button className='bg-gradient-to-b from-blue-800 to-blue-700 py-2  px-12 rounded-lg text-gray-50 font-bold'>Facebook</button>
+				<button className='bg-gradient-to-b from-gray-200 to-gray-100 py-2 px-10  rounded-lg text-gray-gray-800 font-bold'>Google</button>
+				<button className='bg-gradient-to-b from-blue-800 to-blue-700 py-2  px-10 rounded-lg text-gray-50 font-bold'>Facebook</button>
 
 			</div>
 
