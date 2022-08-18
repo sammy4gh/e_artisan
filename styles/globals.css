@@ -3,5 +3,23 @@
 @tailwind utilities;
 
 
+@layer base {
+  [type='email'],
+  [type='url'],
+  [type='password'],
+  [type='number'],
+  [type='date'],
+  [type='datetime-local'],
+  [type='month'],
+  [type='search'],
+  [type='tel'],
+  [type='time'],
+  [type='week'],
+  '[multiple]',
+  textarea,
+  select {
+    @apply w-full border-none rounded-lg focus:border focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500;
+  }
 
 
+}

@@ -22,18 +22,21 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Provider store={store}>
-        <Header />
 
-        <section
-          className={
+        <section className="bg-gray-50">
+          {/* <Header /> */}
 
-            `mx-10  ${loading === true ? "loading" : ""}`
-          }
-        >
-          <Component {...pageProps} />
+          <section
+            className={
+
+              `mx-10 ${loading === true ? "loading" : ""}`
+            }
+          >
+            <Component {...pageProps} />
+          </section>
+
+          <Footer />
         </section>
-
-        <Footer />
       </Provider>
     </>
   );
