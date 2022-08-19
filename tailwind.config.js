@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('public/assets/backgrounds/wave-haikei.svg')",
+        'login-wave': "url('../public/assets/backgrounds/wave-haikei.svg')",
+        'world-map': "url('../public/assets/backgrounds/world_map.svg')",
       }
     },
   },

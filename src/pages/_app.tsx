@@ -5,6 +5,7 @@ import Header from "../components/layouts/header/header";
 import Footer from "../components/layouts/Footer/footer";
 import { store } from '../components/redux/store';
 import { Provider } from 'react-redux';
+import {useRouter} from 'next/router'
 
 function MyApp({ Component, pageProps }: AppProps) {
   const [loading, setLoading] = useState<boolean>(true);
@@ -19,17 +20,20 @@ function MyApp({ Component, pageProps }: AppProps) {
     };
   }, [pageProps]);
 
+
+  const router = useRouter()
+const {pathname} = router
   return (
     <>
       <Provider store={store}>
 
         <section className="bg-gray-50">
-          <Header />
+         {pathname === '/login' || <Header />}
 
           <section
             className={
 
-              `mx-10 ${loading === true ? "loading" : ""}`
+              `${loading === true ? "loading" : ""}`
             }
           >
             <Component {...pageProps} />

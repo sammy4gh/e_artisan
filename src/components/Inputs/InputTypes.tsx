@@ -1,7 +1,8 @@
 export type InputProps = {
 	inputName: string;
 	inputType: string;
-	placeHolder: string
+	placeHolder: string;
+	customStyle? : string
 };
 
 export type LabelProps = {
