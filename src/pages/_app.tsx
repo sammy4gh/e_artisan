@@ -39,7 +39,7 @@ const {pathname} = router
             <Component {...pageProps} />
           </section>
 
-          <Footer />
+         {/* <Footer /> */}
         </section>
       </Provider>
     </>
