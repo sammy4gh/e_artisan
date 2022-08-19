@@ -1,5 +1,5 @@
 import { CategoryCard } from './../components/Cards/CategoryCard';
-import { Login } from "./login";
+
 import { ForgotPassword } from "./../components/Inputs/ForgotPassword";
 import { BasicInput } from "./../components/Inputs/BasicInput";
 import GradientButton from "./../components/Buttons/GradientButton";
