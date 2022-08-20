@@ -3,7 +3,7 @@
 import { LocationMarkerIcon } from "@heroicons/react/solid";
 import { SubmitButton } from "../../components/Buttons/SubmitButton";
 import { BasicInput } from "../../components/Inputs/BasicInput";
-import { CategoryCard } from "../../components/Cards/CategoryCard";
+import { ArtisanCard } from "../../components/Cards/ArtisanCard";
 import artisan_img from "../../../public/assets/backgrounds/wave-haikei.svg";
 
 // import styles from '../styles/Home.module.css'
@@ -24,7 +24,10 @@ export default function Home() {
 							</h1>
 
 							<h3 className="text-xl my-2">
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis doloribus eaque accusamus voluptatem. Obcaecati dolorum suscipit quis architecto iusto quasi?                                </h3>
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+								Officiis doloribus eaque accusamus voluptatem. Obcaecati dolorum
+								suscipit quis architecto iusto quasi?{" "}
+							</h3>
 						</div>
 						<div className="flex flex-col justify-center md:flex-row gap-4 w-full ">
 							<BasicInput
@@ -34,8 +37,6 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis doloribus eaq
 								inputType="text"
 								customStyle="w-full"
 							/>
-
-							
 
 							<SubmitButton buttonName="Locate" customStyle="px-4" />
 						</div>
@@ -49,12 +50,9 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis doloribus eaq
 					</div>
 
 					<div className="grid md:grid-cols-3  gap-4 ">
-						<CategoryCard artisan_img={artisan_img} />
-						<CategoryCard artisan_img={artisan_img} />
-						<CategoryCard artisan_img={artisan_img} />
-						<CategoryCard artisan_img={artisan_img} />
-						<CategoryCard artisan_img={artisan_img} />
-						<CategoryCard artisan_img={artisan_img} />
+						<ArtisanCard artisan_img={artisan_img} />
+						<ArtisanCard artisan_img={artisan_img} />
+						<ArtisanCard artisan_img={artisan_img} />
 					</div>
 				</div>
 			</div>
