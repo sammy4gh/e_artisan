@@ -1,8 +1,9 @@
 
 export type ButtonProps = {
     buttonName: string,
-    customStyle? : string
-    textColor? : string
+    customStyle? : string,
+    textColor? : string,
+    route? : string
 }
 
 export type GradientButtonProps = ButtonProps &{

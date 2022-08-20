@@ -18,12 +18,12 @@ const Navigation = () => {
 					|
 				</div>
 				<div className="py-2 border-b-2 border-opacity-10 border-gray-100	lg:border-0">
-					<Link href="/login">
+					<Link href="/account/login">
 						<a className="">Log out</a>
 					</Link>
 				</div>
 				<div className="py-2 px-2 rounded-lg bg-red-500">
-					<Link href="/login">
+					<Link href="/account/login">
 						<a className="">Artisan Signup</a>
 					</Link>
 				</div>

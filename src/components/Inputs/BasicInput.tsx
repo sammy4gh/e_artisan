@@ -1,5 +1,4 @@
 import { TextInput } from './TextInput';
-/** @format */
 
 import { InputslLabel } from "./InputslLabel";
 import React from "react";
