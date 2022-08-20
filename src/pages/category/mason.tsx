@@ -17,7 +17,7 @@ export default function Home() {
 					{/* <div id="hero" className="  flex flex-col justify-around mx-auto ">
 						<LocationMarkerIcon className="h-20" />
 					</div> */}
-					<div className="mx-10">
+					<div className="mx-10 md:mx-40">
 						<div className="text-center">
 							<h1 className="font-bold text-2xl md:text-4xl text-gray-800">
 								These are Masons available to offer their services
@@ -38,14 +38,14 @@ export default function Home() {
 								customStyle="w-full"
 							/>
 
-							<SubmitButton buttonName="Locate" customStyle="px-4" />
+							<SubmitButton buttonName="Find" customStyle="px-4 " />
 						</div>
 					</div>
 				</div>
 				<div className="artisans  mt-10 mx-10">
 					<div>
 						<h1 className="font-bold text-xl text-center text-gray-800">
-							Our most popular jobs
+							Available Masons
 						</h1>
 					</div>
 
