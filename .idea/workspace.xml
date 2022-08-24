@@ -1,11 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="934a5622-376a-4285-b16b-438d3b4e852a" name="Changes" comment="" />
+    <list default="true" id="f3d5a6a6-6cfc-46fa-9f13-9b0fd8545d63" name="Changes" comment="grapphql connection">
+      <change afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apollo-client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eartisan.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eartisan_api.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/.openapi-generator-ignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/.openapi-generator/FILES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/.openapi-generator/VERSION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/api/openapi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/build.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/git_push.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/ApiCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/ApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/ApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/GzipRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/JSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/ProgressRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/ProgressResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/ServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/ServerVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/auth/ApiKeyAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/auth/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/auth/HttpBasicAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/auth/HttpBearerAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/e_artisan.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cards/ArtisanCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/ArtisanCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cards/CardsType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/CardsType.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/toggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toggle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/category/mason.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/category/mason.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="OpenAPI" />
+        <option value="HTTP Request" />
+        <option value="Json OpenAPI version 3" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -13,37 +72,128 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2DUzC7sdOr8eWhNhGafulwgIE4y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2DnuH3NmU86BPjyOHMVVLjCSyjc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Json OpenAPI version 3&quot;: &quot;Json OpenAPI version 3&quot;,
+    &quot;Project.color&quot;: &quot;592f56&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sammy/Downloads/Compressed/nextjs-typescript-tailwindcss-starter-main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-22.04/home/sammy/DevProjects/e_artisan_admin/package.json&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;\\\\wsl$\\Ubuntu-22.04\\home\\sammy\\DevProjects\\e_artisan\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MTConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="Swagger Codegen.eartisan.json">
+    <configuration name="eartisan_api | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/eartisan_api.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="\\wsl$\Ubuntu-22.04\home\sammy\DevProjects\e_artisan\gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="jdkPath" value="Default" />
+      <option name="language" value="java" />
+      <option name="specificationPath" value="\\wsl$\Ubuntu-22.04\home\sammy\DevProjects\e_artisan\eartisan.json" />
+      <method v="2" />
+    </configuration>
+    <configuration name="eartisan.json" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="\\wsl$\Ubuntu-22.04\home\sammy\DevProjects\e_artisan\gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="jdkPath" value="Default" />
+      <option name="language" value="java" />
+      <option name="specificationPath" value="\\wsl$\Ubuntu-22.04\home\sammy\DevProjects\e_artisan\eartisan.json" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="wsl://Ubuntu-22.04@/home/sammy/.nvm/versions/node/v16.17.0/bin/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="strapi develop" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/../e_artisan_admin/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="develop" />
+      </scripts>
+      <node-interpreter value="wsl://Ubuntu-22.04@/home/sammy/.nvm/versions/node/v16.17.0/bin/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.eartisan_api | #1" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.strapi develop" />
+      <item itemvalue="Swagger Codegen.eartisan.json" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.eartisan_api | #1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="934a5622-376a-4285-b16b-438d3b4e852a" name="Changes" comment="" />
-      <created>1660768359764</created>
+      <changelist id="f3d5a6a6-6cfc-46fa-9f13-9b0fd8545d63" name="Changes" comment="" />
+      <created>1661347193146</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1660768359764</updated>
-      <workItem from="1660768588024" duration="657000" />
-      <workItem from="1661007790402" duration="99000" />
+      <updated>1661347193146</updated>
+      <workItem from="1661347359284" duration="3574000" />
+      <workItem from="1661359917740" duration="9078000" />
+      <workItem from="1661378201430" duration="644000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="grapphql connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="grapphql connection" />
   </component>
 </project>

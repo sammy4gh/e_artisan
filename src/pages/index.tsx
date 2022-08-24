@@ -1,3 +1,6 @@
+import { gql } from "@apollo/client";
+import client from "../apollo-client";
+
 import { CategoryCard } from './../components/Cards/CategoryCard';
 
 import { ForgotPassword } from "./../components/Inputs/ForgotPassword";

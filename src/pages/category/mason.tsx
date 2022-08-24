@@ -5,10 +5,36 @@ import { SubmitButton } from "../../components/Buttons/SubmitButton";
 import { BasicInput } from "../../components/Inputs/BasicInput";
 import { ArtisanCard } from "../../components/Cards/ArtisanCard";
 import artisan_img from "../../../public/assets/backgrounds/wave-haikei.svg";
-
+import { gql } from "@apollo/client";
+import client from "../../..//apollo-client";
 // import styles from '../styles/Home.module.css'
 
-export default function Home() {
+
+export async function getStaticProps() {
+	const { data } = await client.query({
+		query: gql`
+			query GetArtisans {
+				artisans{
+					name,
+					image{
+						name
+					}
+				}
+			}
+		`,
+	});
+
+	return {
+		props: {
+			artisans: data.artisans,
+		},
+	};
+}
+
+export default function Home({artisans}) {
+
+	console.log(artisans)
+
 	return (
 		// <Login     />
 		<section className=" h-screen">
@@ -50,9 +76,10 @@ export default function Home() {
 					</div>
 
 					<div className="grid md:grid-cols-3  gap-4 ">
-						<ArtisanCard artisan_img={artisan_img} />
-						<ArtisanCard artisan_img={artisan_img} />
-						<ArtisanCard artisan_img={artisan_img} />
+						<ArtisanCard artisan_img={artisan_img} title={'Kwame Atta'}  location={'Akalima'} bio={'Artisan Bio description'} rating={5} slug={'kwame-atta'} />
+						<ArtisanCard artisan_img={artisan_img} title={'Kwame Atta'}  location={'Akalima'} bio={'Artisan Bio description'} rating={5} slug={'kwame-atta'} />
+						<ArtisanCard artisan_img={artisan_img} title={'Kwame Atta'}  location={'Akalima'} bio={'Artisan Bio description'} rating={5} slug={'kwame-atta'}  />
+
 					</div>
 				</div>
 			</div>

@@ -1,0 +1,11 @@
+openapi: 3.0.3
+info:
+  description: E Artisan Platform
+  title: E Artisan
+  version: 1.0.0
+servers:
+- url: http://localhost:1337/
+paths: {}
+components:
+  schemas: {}
+

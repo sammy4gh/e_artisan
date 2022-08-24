@@ -1,0 +1,13 @@
+GRAPHQL http://localhost:1337/graphql
+
+query GetArtisans {
+  artisans{
+    name,
+    image{
+      name,
+      url,
+    }
+  }
+}
+
+###
