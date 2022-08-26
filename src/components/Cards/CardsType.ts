@@ -1,15 +1,17 @@
 type CardProps = {
-    title? : string,
+    title? : string | any,
     image? : string | any,
+        slug? : string
+
 }
 
 export type ArtisanCardProps = CardProps & {
     location : string,
     rating : number,
     bio : string,
-    id : string
-    name : string
-    image_url : string
+    id : string,
+    name : string,
+    image_url : string,
 }
 
 export type CategoryCardProps = CardProps & {

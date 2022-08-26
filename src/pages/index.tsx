@@ -16,6 +16,11 @@ import { LocationMarkerIcon } from "@heroicons/react/solid";
 import { TextInput } from "../components/Inputs/TextInput";
 import { InputslLabel } from "../components/Inputs/InputslLabel";
 import artisan_img from "../../public/assets/backgrounds/wave-haikei.svg";
+import artisan_1 from "../../public/assets/backgrounds/artisan_1.jpg";
+import artisan_2 from "../../public/assets/backgrounds/artisan_2.jpg";
+import artisan_3 from "../../public/assets/backgrounds/artisan_3.jpg";
+
+
 import { CategoryCardProps } from "../components/Cards/CardsType";
 import {useState, useEffect, } from 'react';
 import Router from 'next/router';
@@ -130,18 +135,25 @@ export default function Home({categories}) {
 							</div>
 
 							<div className="grid md:grid-cols-3  gap-4 ">
-								{categories.map(
-									({ name, id, description, image }: CategoryCardProps) => (
-										<div key={id}>
-											<CategoryCard
-												image_url={image.url}
-												name={name}
-												description={description}
-												id={id}
-											/>
-										</div>
-									)
-								)}
+								<CategoryCard
+									image_url={artisan_1}
+									name={"Mason"}
+									description={
+										"contatact mason for your block works and repairs"
+									}
+									id={"88888888888"}
+									slug="mason"
+								/>
+
+								<CategoryCard
+									image_url={artisan_2}
+									name={"Electrician"}
+									description={
+										"contatact electricians for your eletrical works and repairs"
+									}
+									id={"88888888888"}
+									slug="electrician"
+								/>
 							</div>
 						</div>
 					</div>

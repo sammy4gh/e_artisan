@@ -34,14 +34,15 @@ export function ArtisanCard({ image_url, id, bio, rating, location , name}: Arti
 	
 	return (
 		<>
-			<Link href={` /account/artisan/${'profile'}`}>
+			<Link href={` /account/artisan/${"profile"}`}>
 				<div className="card shadow-lg rounded-lg py-3 px-3 cursor-pointer">
 					<div className="grid grid-cols-2  gap-2">
 						<div className="">
 							<Image
 								alt="artisan image"
-								
-								src={"http://localhost:1337/" + image_url}
+								src={
+									image_url
+								}
 								width={100}
 								height={100}
 								className={"rounded-lg"}
