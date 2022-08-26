@@ -24,7 +24,7 @@ export const Profile = ({image_url}) => {
                                 <Image src={artisan_img} layout="responsive" className={'rounded-lg'}/>
                             </div>
                         </div>
-                        <ProfileInfoSec heading={'Name'} info={'John'}/>
+                        <ProfileInfoSec heading={'Name'} info={'Kwaku Manu'}/>
                         <ProfileInfoSec heading={'Location'} info={'Akalima'}/>
                         {/*<ProfileInfoSec heading={'Bio'} info={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci delectus dolorem doloribus\n' +*/}
                         {/*    '                            ipsum, maxime neque officiis pariatur perspiciatis rem sunt!'}/>*/}

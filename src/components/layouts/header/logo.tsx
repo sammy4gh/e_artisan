@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Logo = () => {
     return (
-			<div className="">
+			<div className="cursor-pointer">
 				<Link href={'/'}>
 					<h3 className="">
 						<Image src={logo} height={20} width={100} />

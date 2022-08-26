@@ -12,6 +12,7 @@
     "@apollo/client": "^3.6.9",
     "@heroicons/react": "^1.0.6",
     "@reduxjs/toolkit": "^1.8.4",
+    "@strapi/provider-upload-cloudinary": "^4.3.6",
     "@types/swiper": "^6.0.0",
     "eslint": "^7.32.0",
     "graphql": "^16.6.0",

@@ -9,11 +9,11 @@ export function CategoryCard({ image_url, name, id, description }: CategoryCardP
 	return (
 		<>
 			<div key={id} className={'cursor-pointer'}>
-				<Link href={`/category/${name}`} key={id}>
+				<Link href={`/category/${name || 'mason'}`} key={id}>
 					<div className="card shadow-lg rounded-lg py-3 px-3">
 						<div className="grid grid-cols-3  gap-2">
 							<div className="col-span-1">
-								<Image src={'http://localhost:1337/'+image_url} width={500} height={500} className={'rounded-lg'} />
+								<Image alt={'category image'} src={'http://localhost:1337/'+image_url} width={500} height={500} className={'rounded-lg'} />
 							</div>
 							<div className="col-span-2">
 								<h4 className="font-semibold">{name}</h4>

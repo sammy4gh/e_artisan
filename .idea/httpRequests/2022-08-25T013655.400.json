@@ -1,0 +1,29 @@
+{
+  "errors": [
+    {
+      "message": "Must provide operation name if query contains multiple operations.",
+      "extensions": {
+        "code": "INTERNAL_SERVER_ERROR",
+        "exception": {
+          "stacktrace": [
+            "GraphQLError: Must provide operation name if query contains multiple operations.",
+            "    at buildExecutionContext (/home/sammy/DevProjects/e_artisan_admin/node_modules/graphql/execution/execute.js:177:21)",
+            "    at executeImpl (/home/sammy/DevProjects/e_artisan_admin/node_modules/graphql/execution/execute.js:101:20)",
+            "    at Object.execute (/home/sammy/DevProjects/e_artisan_admin/node_modules/graphql/execution/execute.js:60:35)",
+            "    at /home/sammy/DevProjects/e_artisan_admin/node_modules/apollo-server-core/dist/requestPipeline.js:261:48",
+            "    at Generator.next (<anonymous>)",
+            "    at /home/sammy/DevProjects/e_artisan_admin/node_modules/apollo-server-core/dist/requestPipeline.js:8:71",
+            "    at new Promise (<anonymous>)",
+            "    at __awaiter (/home/sammy/DevProjects/e_artisan_admin/node_modules/apollo-server-core/dist/requestPipeline.js:4:12)",
+            "    at execute (/home/sammy/DevProjects/e_artisan_admin/node_modules/apollo-server-core/dist/requestPipeline.js:240:20)",
+            "    at Object.<anonymous> (/home/sammy/DevProjects/e_artisan_admin/node_modules/apollo-server-core/dist/requestPipeline.js:177:42)",
+            "    at Generator.next (<anonymous>)",
+            "    at fulfilled (/home/sammy/DevProjects/e_artisan_admin/node_modules/apollo-server-core/dist/requestPipeline.js:5:58)",
+            "    at runMicrotasks (<anonymous>)",
+            "    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+          ]
+        }
+      }
+    }
+  ]
+}

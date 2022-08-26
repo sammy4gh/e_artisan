@@ -73,67 +73,80 @@ export default function Home({categories}) {
 	return (
 		// <Login     />
 		<>
-			{
-				(loading)
-					?
-					<div className={'h-screen flex flex-col justify-center'}>	<ClipLoader color={color} loading={loading} cssOverride={override} size={150} /></div>
-					:
-					<section className=" h-screen">
-						<div className="">
-							<div className="md:bg-world-map bg-red-500/10 bg-blend-darken py-10 ">
-								<div id="hero" className="  flex flex-col justify-around mx-auto ">
-									<LocationMarkerIcon className="h-20" />
-								</div>
-								<div className='mx-10'>
-									<div className="text-center">
-										<h1 className="font-bold text-2xl md:text-6xl text-gray-800">
-											Search for artisans in your area
-										</h1>
-
-										<h3 className="text-xl my-2">Find reliable artisans</h3>
-									</div>
-									<div className="flex flex-col justify-center md:flex-row gap-4 w-full ">
-										<BasicInput
-											labelFor="location"
-											labelName="Location"
-											inputName="location"
-											inputType="text"
-											customStyle="w-full"
-										/>
-
-										<BasicInput
-											labelFor="skill"
-											labelName="Skill"
-											inputName="skill"
-											inputType="text"
-											customStyle="w-full"
-										/>
-
-										<SubmitButton buttonName="Locate" customStyle="px-4" />
-									</div>
-								</div>
+			{loading ? (
+				<div className={"h-screen flex flex-col justify-center"}>
+					{" "}
+					<ClipLoader
+						color={color}
+						loading={loading}
+						cssOverride={override}
+						size={150}
+					/>
+				</div>
+			) : (
+				<section className=" h-screen">
+					<div className="">
+						<div className="md:bg-world-map bg-red-500/10 bg-blend-darken py-10 ">
+							<div
+								id="hero"
+								className="  flex flex-col justify-around mx-auto "
+							>
+								<LocationMarkerIcon className="h-20" />
 							</div>
-							<div className="artisans  mt-10 mx-10">
-								<div>
-									<h1 className="font-bold text-xl text-center text-gray-800">
-										Our most popular jobs
+							<div className="mx-10">
+								<div className="text-center">
+									<h1 className="font-bold text-2xl md:text-6xl text-gray-800">
+										Search for artisans in your area
 									</h1>
+
+									<h3 className="text-xl my-2">Find reliable artisans</h3>
 								</div>
+								<div className="flex flex-col justify-center md:flex-row gap-4 w-full ">
+									<BasicInput
+										labelFor="location"
+										labelName="Location"
+										inputName="location"
+										inputType="text"
+										customStyle="w-full"
+									/>
 
-								<div className="grid md:grid-cols-3  gap-4 ">
-									{
-										categories.map(({name,id, description, image}: CategoryCardProps)=>(
-											<CategoryCard  image_url={image.url} name={name} description={description} id={id}/>
+									<BasicInput
+										labelFor="skill"
+										labelName="Skill"
+										inputName="skill"
+										inputType="text"
+										customStyle="w-full"
+									/>
 
-										))
-									}
-
+									<SubmitButton buttonName="Locate" customStyle="px-4" />
 								</div>
 							</div>
 						</div>
-					</section>
-			}
-		</>
+						<div className="artisans  mt-10 mx-10">
+							<div>
+								<h1 className="font-bold text-xl text-center text-gray-800">
+									Our most popular jobs
+								</h1>
+							</div>
 
+							<div className="grid md:grid-cols-3  gap-4 ">
+								{categories.map(
+									({ name, id, description, image }: CategoryCardProps) => (
+										<div key={id}>
+											<CategoryCard
+												image_url={image.url}
+												name={name}
+												description={description}
+												id={id}
+											/>
+										</div>
+									)
+								)}
+							</div>
+						</div>
+					</div>
+				</section>
+			)}
+		</>
 	);
 }

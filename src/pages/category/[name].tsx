@@ -35,7 +35,7 @@ export async function getStaticProps(context: { params: any; }) {
     props: {
       artisans: data.artisans,
       param : name,
-      image : data.artisans.image
+      image : data.artisans.image || ""
     },
   };
 }
@@ -114,7 +114,8 @@ export default function Home({ artisans, param,image }) {
           <div className="grid md:grid-cols-3  gap-4 ">
             {artisans.map(
               ({ name, location, bio, id, rating }: ArtisanCardProps) => (
-                <ArtisanCard
+                <div key={id}>
+                  <ArtisanCard
                   image_url={artisan_img}
                   name={name}
                   location={location}
@@ -122,6 +123,7 @@ export default function Home({ artisans, param,image }) {
                   rating={5}
                   id={id}
                 />
+                </div>
               )
             )}
             {/*<ArtisanCard image={artisan_img} title={'Kwame Atta'}  location={'Akalima'} bio={'Artisan Bio description'} rating={5} slug={'kwame-atta'} />*/}

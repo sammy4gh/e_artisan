@@ -1,0 +1,35 @@
+{
+  "data": {
+    "artisans": [
+      {
+        "name": "Kwame Atta",
+        "location": "Number 9",
+        "categories": [
+          {
+            "name": "mason"
+          }
+        ],
+        "image": {
+          "name": "Free_Sample_By_Wix.jpg",
+          "url": "/uploads/Free_Sample_By_Wix_997f62fc81.jpg"
+        }
+      },
+      {
+        "name": "Kwame Manu",
+        "location": "Akalima",
+        "categories": [
+          {
+            "name": "mason"
+          },
+          {
+            "name": "electrician"
+          }
+        ],
+        "image": {
+          "name": "Free_Sample_By_Wix.jpg",
+          "url": "/uploads/Free_Sample_By_Wix_997f62fc81.jpg"
+        }
+      }
+    ]
+  }
+}

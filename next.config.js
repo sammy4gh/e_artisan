@@ -3,5 +3,8 @@ module.exports = {
   swcMinify: true,
   images :{
     domains : ['localhost']
+  },
+  typescript : {
+    ignoreBuildErrors : true
   }
 }

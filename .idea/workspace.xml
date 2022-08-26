@@ -5,38 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3d5a6a6-6cfc-46fa-9f13-9b0fd8545d63" name="Changes" comment="context param taken">
-      <change afterPath="$PROJECT_DIR$/.graphqlconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Form/FormTypes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Form/OrderForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Form/SingupForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Inputs/BasicFileInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Inputs/BasicTextArea.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Inputs/FileInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Inputs/TextAreaInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/account/artisan/profile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/account/signup.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eartisan_api.http" beforeDir="false" afterPath="$PROJECT_DIR$/eartisan_api.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Buttons/GradientButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Buttons/GradientButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Buttons/SubmitButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Buttons/SubmitButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cards/ArtisanCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/ArtisanCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cards/CardsType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/CardsType.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cards/CategoryCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/CategoryCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/AuthFormHeading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/AuthFormHeading.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/LoginForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Inputs/BasicInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Inputs/BasicInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Inputs/CheckBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Inputs/CheckBox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Inputs/InputTypes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Inputs/InputTypes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Inputs/TextInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Inputs/TextInput.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layouts/header/logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/header/logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/account/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/account/login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/category/mason.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/category/[name].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +156,7 @@
       <workItem from="1661383933011" duration="6605000" />
       <workItem from="1661418207703" duration="13749000" />
       <workItem from="1661442755494" duration="13081000" />
-      <workItem from="1661468753454" duration="11034000" />
+      <workItem from="1661468753454" duration="11904000" />
     </task>
     <task id="LOCAL-00001" summary="grapphql connection">
       <created>1661379776813</created>
@@ -195,7 +165,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661379776813</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="context param taken">
+      <created>1661483309150</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661483309449</updated>
+    </task>
+    <task id="LOCAL-00003" summary="context param taken">
+      <created>1661483907329</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661483907329</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
