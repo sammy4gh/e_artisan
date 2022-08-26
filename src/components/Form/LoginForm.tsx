@@ -1,9 +1,12 @@
+import { MailIcon, LockClosedIcon } from "@heroicons/react/solid";
 import React from "react";
 import GradientButton from "../Buttons/GradientButton";
 import { SubmitButton } from "../Buttons/SubmitButton";
 import { BasicInput } from "../Inputs/BasicInput";
 import { CheckBox } from "../Inputs/CheckBox";
 import { ForgotPassword } from "../Inputs/ForgotPassword";
+import { AuthFormHeading } from "./AuthFormHeading";
+
 export function LoginForm({}) {
 	return (
 		<>
@@ -11,20 +14,23 @@ export function LoginForm({}) {
 			<div className="form  ">
 				<form action="#" method="post">
 					<BasicInput
+
 						labelFor="email"
 						labelName="Email"
 						inputName="email"
 						inputType="email"
-						placeHolder="example@gmail.com"
-						customStyle="w-full"
+						placeHolder=""
+						customStyle="w-full py-1"
+                        icon={<MailIcon className={'h-5 w-5'}/>}
 					/>
 					<BasicInput
+                        icon={<LockClosedIcon className={'h-5 w-5'}/>}
 						labelFor="password"
 						labelName="Password"
 						inputName="password"
 						inputType="password"
-						placeHolder="****************"
-						customStyle="w-full"
+						placeHolder=""
+						customStyle="w-full py-1"
 					/>
 
 					<div className="flex justify-between">
@@ -39,21 +45,7 @@ export function LoginForm({}) {
 					or login with
 				</h3>
 			</div>
-			<div id="federated_log" className="flex justify-between">
-				<div className="mr-2">
-					<GradientButton
-						buttonName="Google"
-						textColor={`text-gray-gray-800`}
-					/>
-				</div>{" "}
-				<div className="ml-2">
-					<GradientButton
-						buttonName="Facebook"
-						gradientColorFrom="from-blue-800"
-						gradientColorTo="to-blue-700"
-					/>
-				</div>
-			</div>
+
 		</>
 	);
 }

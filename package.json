@@ -16,11 +16,13 @@
     "eslint": "^7.32.0",
     "graphql": "^16.6.0",
     "next": "^12.2.5",
+    "next-page-transitions": "^1.0.0-beta.2",
     "prettier": "^2.7.1",
     "react": "^18.2.0",
     "react-cool-dimensions": "^2.0.7",
     "react-dom": "^18.2.0",
     "react-redux": "^7.2.6",
+    "react-spinners": "^0.13.4",
     "swiper": "^8.3.2"
   },
   "devDependencies": {

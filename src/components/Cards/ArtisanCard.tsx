@@ -1,22 +1,23 @@
 import React from "react";
 import Image from "next/image";
 import { LocationMarkerIcon, StarIcon  } from "@heroicons/react/solid";
-import {ArtisanCardProps} from "CardType"
 import Link from "next/link"
-
-export function ArtisanCard({ artisan_img, slug, title, bio, rating, location }: ArtisanCardProps ) {
+import { ArtisanCardProps } from "./CardsType";
+import from "../../../public/assets/backgrounds"
+export function ArtisanCard({ image_url, id, bio, rating, location , name}: ArtisanCardProps ) {
 	return (
 		<>
-			<Link href={`${slug}`}>
-				<div className="card shadow-lg py-3 px-3">
+			<Link href={` /account/artisan/${id}`}>
+				<div className="card shadow-lg rounded-lg py-3 px-3 cursor-pointer">
 					<div className="grid grid-cols-2  gap-2">
 						<div className="">
-							<Image src={artisan_img} layout="responsive" />
+							<Image src={'http://localhost:1337/'+image_url}  width={100} height={100} className={'rounded-lg'} />
 						</div>
 						<div className="flex flex-col justify-between">
-							<h4 className="font-semibold">{title}</h4>
-							<p className="text-gray-500">
-								{bio}							</p>
+							<h4 className="font-semibold">{name}</h4>
+							<p className="text-gray-500 truncate">
+								{bio || 'no bio'}
+							</p>
 							<div className="flex justify-between">
 								<div className="flex">
 									<div className="flex flex-col justify-center mr-1	">

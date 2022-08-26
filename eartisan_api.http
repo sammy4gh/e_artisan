@@ -1,13 +1,25 @@
 GRAPHQL http://localhost:1337/graphql
 
-query GetArtisans {
-  artisans{
+
+
+ query {
+artisans{
+    name,
+    location,
+    categories{name},
+    image{
+      name,
+      url,
+    },
+  },
+  categories{
     name,
     image{
       name,
       url,
-    }
-  }
-}
+    },
+  },
 
+
+}
 ###

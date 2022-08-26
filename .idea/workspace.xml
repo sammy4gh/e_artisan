@@ -1,55 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3d5a6a6-6cfc-46fa-9f13-9b0fd8545d63" name="Changes" comment="grapphql connection">
-      <change afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apollo-client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eartisan.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eartisan_api.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/.openapi-generator-ignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/.openapi-generator/FILES" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/.openapi-generator/VERSION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/api/openapi.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/build.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/git_push.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/ApiCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/ApiClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/ApiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/GzipRequestInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/JSON.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/ProgressRequestBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/ProgressResponseBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/ServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/ServerVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/auth/ApiKeyAuth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/auth/Authentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/auth/HttpBasicAuth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen/src/main/java/org/openapitools/client/auth/HttpBearerAuth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/e_artisan.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="f3d5a6a6-6cfc-46fa-9f13-9b0fd8545d63" name="Changes" comment="context param taken">
+      <change afterPath="$PROJECT_DIR$/.graphqlconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Form/FormTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Form/OrderForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Form/SingupForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Inputs/BasicFileInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Inputs/BasicTextArea.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Inputs/FileInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Inputs/TextAreaInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/account/artisan/profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/account/signup.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eartisan_api.http" beforeDir="false" afterPath="$PROJECT_DIR$/eartisan_api.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Buttons/GradientButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Buttons/GradientButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Buttons/SubmitButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Buttons/SubmitButton.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cards/ArtisanCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/ArtisanCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cards/CardsType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/CardsType.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/toggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/toggle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/category/mason.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/category/mason.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cards/CategoryCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cards/CategoryCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/AuthFormHeading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/AuthFormHeading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/LoginForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Inputs/BasicInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Inputs/BasicInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Inputs/CheckBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Inputs/CheckBox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Inputs/InputTypes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Inputs/InputTypes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Inputs/TextInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Inputs/TextInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layouts/header/logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/header/logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/account/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/account/login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/category/mason.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/category/[name].tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,11 +49,24 @@
         <option value="OpenAPI" />
         <option value="HTTP Request" />
         <option value="Json OpenAPI version 3" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/apollo-client.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/eartisan_api.http" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Cards/ArtisanCard.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Cards/CardsType.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/toggle.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/account/artisan/profile.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/category/[name].tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/pages/index.tsx" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,19 +82,26 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Json OpenAPI version 3&quot;: &quot;Json OpenAPI version 3&quot;,
     &quot;Project.color&quot;: &quot;592f56&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-22.04/home/sammy/DevProjects/e_artisan_admin/package.json&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;wsl://Ubuntu-22.04@/home/sammy/.nvm/versions/node/v16.17.0/bin/node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;\\\\wsl$\\Ubuntu-22.04\\home\\sammy\\DevProjects\\e_artisan\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MTConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Sammy\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\222.3345.108\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Swagger Codegen.eartisan.json">
+  <component name="RunManager" selected="npm.strapi develop">
+    <configuration name="All in eartisan_api" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/eartisan_api.http">
+      <method v="2" />
+    </configuration>
     <configuration name="eartisan_api | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/eartisan_api.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -152,6 +158,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="HTTP Request.All in eartisan_api" />
       <item itemvalue="HTTP Request.eartisan_api | #1" />
       <item itemvalue="npm.dev" />
       <item itemvalue="npm.strapi develop" />
@@ -159,6 +166,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.All in eartisan_api" />
         <item itemvalue="HTTP Request.eartisan_api | #1" />
       </list>
     </recent_temporary>
@@ -173,8 +181,21 @@
       <updated>1661347193146</updated>
       <workItem from="1661347359284" duration="3574000" />
       <workItem from="1661359917740" duration="9078000" />
-      <workItem from="1661378201430" duration="644000" />
+      <workItem from="1661378201430" duration="2630000" />
+      <workItem from="1661383710533" duration="88000" />
+      <workItem from="1661383933011" duration="6605000" />
+      <workItem from="1661418207703" duration="13749000" />
+      <workItem from="1661442755494" duration="13081000" />
+      <workItem from="1661468753454" duration="11034000" />
     </task>
+    <task id="LOCAL-00001" summary="grapphql connection">
+      <created>1661379776813</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661379776813</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +215,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="grapphql connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="grapphql connection" />
+    <MESSAGE value="context param taken" />
+    <option name="LAST_COMMIT_MESSAGE" value="context param taken" />
   </component>
 </project>
