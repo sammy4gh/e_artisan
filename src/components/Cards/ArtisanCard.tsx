@@ -3,7 +3,7 @@ import Image from "next/image";
 import { LocationMarkerIcon, StarIcon  } from "@heroicons/react/solid";
 import Link from "next/link"
 import { ArtisanCardProps } from "./CardsType";
-import from "../../../public/assets/backgrounds"
+//import from "../../../public/assets/backgrounds"
 export function ArtisanCard({ image_url, id, bio, rating, location , name}: ArtisanCardProps ) {
 	return (
 		<>
